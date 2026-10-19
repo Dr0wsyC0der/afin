@@ -10,7 +10,7 @@
 
 ```powershell
 # 1. Убедитесь, что вы в корневой директории проекта
-# cd C:\Users\Dodop\Desktop\afin-ui
+# cd afin-ui-backend/afin-frontend
 
 # 2. Создайте файл backend/.env (если еще не создан)
 if (-not (Test-Path backend\.env)) {
