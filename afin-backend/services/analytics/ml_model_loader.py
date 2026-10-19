@@ -35,13 +35,13 @@ def load_model():
     if not MODEL_PATH.exists():
         raise FileNotFoundError(
             f"Модель не найдена: {MODEL_PATH}. "
-            f"Скопируйте файлы из 'Проект_AI_ассистент/best_model_LightGBM' в '{MODEL_DIR}'"
+            f"Скопируйте файлы из 'ai-service/best_model_LightGBM' в '{MODEL_DIR}'"
         )
 
     if not SCALER_PATH.exists():
         raise FileNotFoundError(
             f"Scaler не найден: {SCALER_PATH}. "
-            f"Скопируйте файлы из 'Проект_AI_ассистент/best_model_LightGBM' в '{MODEL_DIR}'"
+            f"Скопируйте файлы из 'ai-service/best_model_LightGBM' в '{MODEL_DIR}'"
         )
 
     # Загружаем модель
